@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Sounds Web Application</title>
+  <!-- Define the "rel" attribute as an icon -->
+  <link rel="icon" href="music.png">
+
+  <!-- The order of .css files matter.
+  Having styles.css after bootstrap.min.css means that styles.css overwrites bootstrap.min.css in their shared properties-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+  <!-- Link this sheet with the styles.css sheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- From google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@700&family=Oswald:wght@200&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <h1 class="title">&#127926; Animal Sounds Web Application &#127926;</h1>
+  <h3 class="title_subsection">&#127926; Sounds Are Activated By Clicking the Animal's images or Pressing Typing Their Names on the Keyboad &#127926;</h3>
+
+  <div class="notes">
+
+
+
+    <!-- This button/image is made using "butoon/image" method 2
+    1. The images are added using CSS -->
+    <div class="animalContainer">
+      <button class="notes_set animal1" onClick="animal1()">lion</button>
+      <p class="description">
+        A Male Lion </p>
+    </div>
+
+
+  </div>
+
+
+  <!-- The footer section  -->
+  <footer>
+    <p class="footer">© Copyright 2022 Animal Sounds</p>
+  </footer>
+
+
+  <!-- It is prefered to add JS as the end of a webpage, because once everything loads
+JS can make its changes  -->
+  <script src="index.js" charset="utf-8"> </script>
+</body>
+
+</html>
