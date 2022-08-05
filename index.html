@@ -22,26 +22,28 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@700&family=Oswald:wght@200&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
-
-
 </head>
 
 <body>
   <h1 class="title">&#127926; Animal Sounds Web Application &#127926;</h1>
   <h3 class="title_subsection">&#127926; Sounds Are Activated By Clicking the Animal's images or Pressing Typing Their Names on the Keyboad &#127926;</h3>
 
-  <div class="notes">
-
-
-
-    <!-- This button/image is made using "butoon/image" method 2
-    1. The images are added using CSS -->
-    <div class="animalContainer">
+<!-- To utilize the bootstrap grid system.
+The classes of row and col-**-** must be used
+Also, using the grid system of bootstrap can prevent us from using the @ media rule-->
+  <div class="notes row">
+    <!-- 1. The images are added using CSS  -->
+    <div class="col-lg-3 col-md-12 col-sm-12">
       <button class="notes_set animal1" onClick="animal1()">lion</button>
       <p class="description">
         A Male Lion </p>
     </div>
 
+    <div class="col-lg-3 col-md-12 col-sm-12">
+      <button class="notes_set animal2" onClick="animal2()">Tiger</button>
+      <p class="description">
+        A Female Tiger </p>
+    </div>
 
   </div>
 
