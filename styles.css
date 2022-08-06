@@ -34,7 +34,7 @@ body {
 
 .notes_set {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   border-radius: 20%;
   width: 15.625rem;
   height: 15rem;
@@ -64,17 +64,111 @@ body {
 /* The issue witht his method, we can not make the image has round corners
 because it is added to the div from a css class not added to an image element  */
 .animal1 {
-  background-image: url('piano.jpg');
+  background-image: url('lion.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 .animal2 {
-  background-image: url('piano.jpg');
+  background-image: url('alligator.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 11rem;
 }
+
+.animal3 {
+  background-image: url('camel.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal4 {
+  background-image: url('cat.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal5 {
+  background-image: url('cow.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+
+.animal6 {
+  background-image: url('dog.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal7 {
+  background-image: url('dolphin.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal8 {
+  background-image: url('eagle.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal9 {
+  background-image: url('elephant.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal10 {
+  background-image: url('goat.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal11 {
+  background-image: url('gorilla.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal12 {
+  background-image: url('horse.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal13 {
+  background-image: url('monkey.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+
+.animal14 {
+  background-image: url('rooster.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
+.animal15 {
+  background-image: url('wildbeast.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11rem;
+}
+
 
 
 .description {
