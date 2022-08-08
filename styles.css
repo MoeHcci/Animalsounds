@@ -1,3 +1,6 @@
+/* @Media must be added to accommodate for the phone view */
+
+
 body {
   background-color: #C7D3D4FF;
 }
@@ -39,14 +42,14 @@ body {
   width: 15.625rem;
   height: 15rem;
   border: 0.375rem solid black;
-  color: black;
+  color: red;
   background-color: #00239CFF;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .notes_set:hover {
-  color: red;
+  color: white;
   background-color: #C7D3D4FF;
 }
 
@@ -67,34 +70,35 @@ because it is added to the div from a css class not added to an image element  *
   background-image: url('lion.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 13rem;
+  background-size: 12.5rem;
+
 }
 .animal2 {
   background-image: url('alligator.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal3 {
   background-image: url('camel.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal4 {
   background-image: url('cat.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal5 {
   background-image: url('cow.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 
@@ -102,21 +106,21 @@ because it is added to the div from a css class not added to an image element  *
   background-image: url('dog.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal7 {
   background-image: url('dolphin.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal8 {
   background-image: url('eagle.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal9 {
@@ -137,14 +141,14 @@ because it is added to the div from a css class not added to an image element  *
   background-image: url('gorilla.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 10rem;
 }
 
 .animal12 {
   background-image: url('horse.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 .animal13 {
@@ -166,7 +170,7 @@ because it is added to the div from a css class not added to an image element  *
   background-image: url('wildbeast.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 11rem;
+  background-size: 13rem;
 }
 
 
