@@ -1,6 +1,4 @@
 /* @Media must be added to accommodate for the phone view */
-
-
 body {
   background-color: #FEFFDE;
 }
@@ -10,7 +8,6 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: black;
-
 }
 
 .title_subsection {
@@ -18,16 +15,27 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: red;
-
 }
 
+.input {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#inputText, #actualText{
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
+
+}
 
 
 .notes {
   text-align: center;
   margin-top: 10rem;
   margin-bottom: 10rem;
-
   min-height: calc(100vh - 500px);
   /* Use the calc() function to set the height of your wrapper equal to the
   height of the viewport (display), minus a height that will always show the footer. */
@@ -36,8 +44,6 @@ body {
   height: 100vh; means the height of this element is equal to 100% of the viewport height.
   example: when the height: 50vh; and If your screen height is 1000px, your element height will be equal to 500px (50% of 1000px). */
 }
-
-
 
 .notes_set {
   font-family: 'Ubuntu', sans-serif;
@@ -63,10 +69,6 @@ body {
   transform: translateY(0.375rem);
 }
 
-
-
-
-
 /* This class is for "butoon/image" method 2 */
 /* The issue witht his method, we can not make the image has round corners
 because it is added to the div from a css class not added to an image element  */
@@ -75,8 +77,8 @@ because it is added to the div from a css class not added to an image element  *
   background-position: center;
   background-repeat: no-repeat;
   background-size: 12.5rem;
-
 }
+
 .animal2 {
   background-image: url('alligator.jpeg');
   background-position: center;
@@ -104,7 +106,6 @@ because it is added to the div from a css class not added to an image element  *
   background-repeat: no-repeat;
   background-size: 13rem;
 }
-
 
 .animal6 {
   background-image: url('dog.jpg');
@@ -162,7 +163,6 @@ because it is added to the div from a css class not added to an image element  *
   background-size: 11rem;
 }
 
-
 .animal14 {
   background-image: url('rooster.jpg');
   background-position: center;
@@ -177,8 +177,6 @@ because it is added to the div from a css class not added to an image element  *
   background-size: 13rem;
 }
 
-
-
 .description {
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -186,17 +184,9 @@ because it is added to the div from a css class not added to an image element  *
   font-size: 2rem
 }
 
-
-
-
-
-
-
-
 .footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   text-align: center;
   height: 10px;
-
 }

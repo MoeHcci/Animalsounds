@@ -167,7 +167,7 @@ for (var x = 0;
       // Playing Sound Using the If statements
       //  Use different var each time to keep things orginized
       //  the double equal sign used because the type of console.log(this.innerHTML) is undefined and in the if statement we are writing strings
-      // if (this.innerHTML == "lions") {
+      // if (this.innerHTML == "lion") {
       //   // var was used instead of a function, because functions did not work
       //   var animal1 = new Audio('lion.mp3').play();
       //
@@ -192,7 +192,7 @@ for (var x = 0;
       // } else if (this.innerHTML == "eagle") {
       //   var animal8 = new Audio('eagle.mp3').play();
       //
-      // } else if (this.innerHTML == "elephants") {
+      // } else if (this.innerHTML == "elephant") {
       //   var animal9 = new Audio('elephant.mp3').play();
       //
       // } else if (this.innerHTML == "goat") {
@@ -204,7 +204,7 @@ for (var x = 0;
       // } else if (this.innerHTML == "horse") {
       //   var animal12 = new Audio('horse.mp3').play();
       //
-      // } else if (this.innerHTML == "monkeys") {
+      // } else if (this.innerHTML == "monkey") {
       //   var animal13 = new Audio('monkey.mp3').play();
       //
       // } else if (this.innerHTML == "rooster") {
@@ -222,7 +222,7 @@ for (var x = 0;
       // Playing Sound Using the switch statements
       //  Use different var each time to keep things orginized
       switch (this.innerHTML) {
-        case this.innerHTML = "lions":
+        case this.innerHTML = "lion":
           var animal1 = new Audio('lion.mp3').play();
           break
         case this.innerHTML = "alligator":
@@ -246,7 +246,7 @@ for (var x = 0;
         case this.innerHTML = "eagle":
           var animal8 = new Audio('eagle.mp3').play();
           break
-        case this.innerHTML = "elephants":
+        case this.innerHTML = "elephant":
           var animal9 = new Audio('elephant.mp3').play();
           break
         case this.innerHTML = "goat":
@@ -258,8 +258,8 @@ for (var x = 0;
         case this.innerHTML = "horse":
           var animal12 = new Audio('horse.mp3').play();
           break
-        case this.innerHTML = "monkeys":
-          var animal13 = new Audio('monkeys.mp3').play();
+        case this.innerHTML = "monkey":
+          var animal13 = new Audio('monkey.mp3').play();
           break
         case this.innerHTML = "rooster":
           var animal14 = new Audio('rooster.mp3').play();
@@ -292,54 +292,54 @@ function updateValue(results) {
   // target gives you the element that triggered the event. So, event. target.
   // value retrieves the value of that element (an input field, in your example)
 
-  if (textResults == "lions") {
+  if (textResults == "lion" || textResults == "Lion") {
     var animal1 = new Audio('lion.mp3').play();
 
-  } else if (textResults == "alligator") {
+  } else if (textResults == "alligator" || textResults == "Alligator") {
     var animal2 = new Audio('alligator.mp3').play();
 
-  } else if (textResults == "camel") {
+  } else if (textResults == "camel" || textResults == "Camel") {
     var animal3 = new Audio('camel.mp3').play();
 
-  } else if (textResults == "cat") {
+  } else if (textResults == "cat"  || textResults == "Cat") {
     var animal4 = new Audio('cat.mp3').play();
 
-  } else if (textResults == "cow") {
+  } else if (textResults == "cow" || textResults == "Cow") {
     var animal5 = new Audio('cow.mp3').play();
 
-  } else if (textResults == "dog") {
+  } else if (textResults == "dog" || textResults == "Dog") {
     var animal6 = new Audio('dog.mp3').play();
 
-  } else if (textResults == "dolphine") {
+  } else if (textResults == "dolphine" || textResults == "Dolphine") {
     var animal7 = new Audio('dolphin.mp3').play();
 
-  } else if (textResults == "eagle") {
+  } else if (textResults == "eagle" || textResults == "Eagle") {
     var animal8 = new Audio('eagle.mp3').play();
 
-  } else if (textResults == "elephants") {
+  } else if (textResults == "elephant" || textResults == "Elephant"){
     var animal9 = new Audio('elephant.mp3').play();
 
-  } else if (textResults == "goat") {
+  } else if (textResults == "goat" || textResults == "Goat") {
     var animal10 = new Audio('goat.mp3').play();
 
-  } else if (textResults == "gorilla") {
+  } else if (textResults == "gorilla" || textResults == "Gorilla") {
     var animal11 = new Audio('gorilla.mp3').play();
 
-  } else if (textResults == "horse") {
+  } else if (textResults == "horse" || textResults == "Horse") {
     var animal12 = new Audio('horse.mp3').play();
 
-  } else if (textResults == "monkeys") {
+  } else if (textResults == "monkey" || textResults == "Monkey") {
     var animal13 = new Audio('monkey.mp3').play();
 
-  } else if (textResults == "rooster") {
+  } else if (textResults == "rooster" || textResults == "Rooster") {
     var animal14 = new Audio('rooster.mp3').play();
 
-  } else if (textResults == "wildebeest") {
+  } else if (textResults == "wildebeest" || textResults == "Wildebeest") {
     var animal15 = new Audio('wildebeest.mp3').play();
   } else {
     // This will trigger when none of the buttons has been pressed
     // and the innerHTML of this equals to something not in the buttons
-    alert("Place holder, check the If statement");
+    alert("The entered text does not have a sound associated with it.");
 
 
   }
