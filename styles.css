@@ -171,7 +171,7 @@ because it is added to the div from a css class not added to an image element  *
 }
 
 .animal15 {
-  background-image: url('wildbeast.jpg');
+  background-image: url('wildebeest.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 13rem;

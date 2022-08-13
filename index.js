@@ -68,7 +68,7 @@
 // };
 //
 // function animal15() {
-//   new Audio('wildbeast.mp3').play()
+//   new Audio('wildebeest.mp3').play()
 // };
 //
 //
@@ -129,7 +129,7 @@
 // };
 //
 // function animal15() {
-//   new Audio('wildbeast.mp3')
+//   new Audio('wildebeest.mp3')
 // };
 
 
@@ -210,8 +210,8 @@ for (var x = 0;
       // } else if (this.innerHTML == "rooster") {
       //   var animal14 = new Audio('rooster.mp3').play();
       //
-      // } else if (this.innerHTML == "wildbeast") {
-      //   var animal15 = new Audio('wildbeast.mp3').play();
+      // } else if (this.innerHTML == "wildebeest") {
+      //   var animal15 = new Audio('wildebeest.mp3').play();
       // } else {
       //   // This will trigger when none of the buttons has been pressed
       //   // and the innerHTML of this equals to something not in the buttons
@@ -264,8 +264,8 @@ for (var x = 0;
         case this.innerHTML = "rooster":
           var animal14 = new Audio('rooster.mp3').play();
           break
-        case this.innerHTML = "wildbeast":
-          var animal15 = new Audio('wildbeast.mp3').play();
+        case this.innerHTML = "wildebeest":
+          var animal15 = new Audio('wildebeest.mp3').play();
           break
         default:
           alert("Place holder, check the switch statement");
@@ -281,11 +281,66 @@ for (var x = 0;
 
 
 // Playing Sounds Via typing
-//    Method 1. Utilizing a while loop, Event Listenter, If or the Switch statements
+// getElementById must be utilized because we are looking for an ind element
+// The --> .target.value is used because target gives you the element that triggered the event. So, event.target.value retrieves the value of that element (an input field, in your example)
+
+document.getElementById("inputText").addEventListener('change', updateValue);
+
+function updateValue(results) {
+  var textResults = document.getElementById("actualText").innerHTML
+  textResults = results.target.value;
+  // target gives you the element that triggered the event. So, event. target.
+  // value retrieves the value of that element (an input field, in your example)
+
+  if (textResults == "lions") {
+    var animal1 = new Audio('lion.mp3').play();
+
+  } else if (textResults == "alligator") {
+    var animal2 = new Audio('alligator.mp3').play();
+
+  } else if (textResults == "camel") {
+    var animal3 = new Audio('camel.mp3').play();
+
+  } else if (textResults == "cat") {
+    var animal4 = new Audio('cat.mp3').play();
+
+  } else if (textResults == "cow") {
+    var animal5 = new Audio('cow.mp3').play();
+
+  } else if (textResults == "dog") {
+    var animal6 = new Audio('dog.mp3').play();
+
+  } else if (textResults == "dolphine") {
+    var animal7 = new Audio('dolphin.mp3').play();
+
+  } else if (textResults == "eagle") {
+    var animal8 = new Audio('eagle.mp3').play();
+
+  } else if (textResults == "elephants") {
+    var animal9 = new Audio('elephant.mp3').play();
+
+  } else if (textResults == "goat") {
+    var animal10 = new Audio('goat.mp3').play();
+
+  } else if (textResults == "gorilla") {
+    var animal11 = new Audio('gorilla.mp3').play();
+
+  } else if (textResults == "horse") {
+    var animal12 = new Audio('horse.mp3').play();
+
+  } else if (textResults == "monkeys") {
+    var animal13 = new Audio('monkey.mp3').play();
+
+  } else if (textResults == "rooster") {
+    var animal14 = new Audio('rooster.mp3').play();
+
+  } else if (textResults == "wildebeest") {
+    var animal15 = new Audio('wildebeest.mp3').play();
+  } else {
+    // This will trigger when none of the buttons has been pressed
+    // and the innerHTML of this equals to something not in the buttons
+    alert("Place holder, check the If statement");
 
 
-document.addEventListener("keydown", myfunction(x)  {
-  if (x.keyCode == "81")
-  alert('hi')
-
-});
+  }
+}
