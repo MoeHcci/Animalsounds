@@ -71,66 +71,7 @@
 //   new Audio('wildebeest.mp3').play()
 // };
 //
-//
-// function animal1() {
-//   new Audio('lion.mp3')
-// };
-//
-// function animal2() {
-//   new Audio('alligator.mp3')
-// };
-//
-// function animal3() {
-//   new Audio('camel.mp3')
-// };
-//
-// function animal4() {
-//   new Audio('cat.mp3')
-// };
-//
-// function animal5() {
-//   new Audio('cow.mp3')
-// };
-//
-// function animal6() {
-//   new Audio('dog.mp3')
-// };
-//
-// function animal7() {
-//   new Audio('dolphin.mp3')
-// };
-//
-// function animal8() {
-//   new Audio('eagle.mp3')
-// };
-//
-// function animal9() {
-//   new Audio('elephant.mp3')
-// };
-//
-// function animal10() {
-//   new Audio('goat.mp3')
-// };
-//
-// function animal11() {
-//   new Audio('gorilla.mp3')
-// };
-//
-// function animal12() {
-//   new Audio('horse.mp3')
-// };
-//
-// function animal13() {
-//   new Audio('monkey.mp3')
-// };
-//
-// function animal14() {
-//   new Audio('rooster.mp3')
-// };
-//
-// function animal15() {
-//   new Audio('wildebeest.mp3')
-// };
+
 
 
 // Playing Sounds Via Clicking on a button
@@ -163,108 +104,52 @@ for (var x = 0;
       console.log("The " + this.innerHTML + " Button had been clicked.");
       var buttonSpecificCondition = this.innerHTML;
 
-
-      // Playing Sound Using the If statements
-      //  Use different var each time to keep things orginized
-      //  the double equal sign used because the type of console.log(this.innerHTML) is undefined and in the if statement we are writing strings
-      // if (this.innerHTML == "lion") {
-      //   // var was used instead of a function, because functions did not work
-      //   var animal1 = new Audio('lion.mp3').play();
-      //
-      // } else if (this.innerHTML == "alligator") {
-      //   var animal2 = new Audio('alligator.mp3').play();
-      //
-      // } else if (this.innerHTML == "camel") {
-      //   var animal3 = new Audio('camel.mp3').play();
-      //
-      // } else if (this.innerHTML == "cat") {
-      //   var animal4 = new Audio('cat.mp3').play();
-      //
-      // } else if (this.innerHTML == "cow") {
-      //   var animal5 = new Audio('cow.mp3').play();
-      //
-      // } else if (this.innerHTML == "dog") {
-      //   var animal6 = new Audio('dog.mp3').play();
-      //
-      // } else if (this.innerHTML == "dolphine") {
-      //   var animal7 = new Audio('dolphin.mp3').play();
-      //
-      // } else if (this.innerHTML == "eagle") {
-      //   var animal8 = new Audio('eagle.mp3').play();
-      //
-      // } else if (this.innerHTML == "elephant") {
-      //   var animal9 = new Audio('elephant.mp3').play();
-      //
-      // } else if (this.innerHTML == "goat") {
-      //   var animal10 = new Audio('goat.mp3').play();
-      //
-      // } else if (this.innerHTML == "gorilla") {
-      //   var animal11 = new Audio('gorilla.mp3').play();
-      //
-      // } else if (this.innerHTML == "horse") {
-      //   var animal12 = new Audio('horse.mp3').play();
-      //
-      // } else if (this.innerHTML == "monkey") {
-      //   var animal13 = new Audio('monkey.mp3').play();
-      //
-      // } else if (this.innerHTML == "rooster") {
-      //   var animal14 = new Audio('rooster.mp3').play();
-      //
-      // } else if (this.innerHTML == "wildebeest") {
-      //   var animal15 = new Audio('wildebeest.mp3').play();
-      // } else {
-      //   // This will trigger when none of the buttons has been pressed
-      //   // and the innerHTML of this equals to something not in the buttons
-      //   alert("Place holder, check the If statement");
-      //
-      // }
-
       // Playing Sound Using the switch statements
       //  Use different var each time to keep things orginized
       switch (this.innerHTML) {
-        case this.innerHTML = "lion":
+        case this.innerHTML = "Lion":
           var animal1 = new Audio('lion.mp3').play();
           break
-        case this.innerHTML = "alligator":
+        case this.innerHTML = "Alligator":
           var animal2 = new Audio('alligator.mp3').play();
           break
-        case this.innerHTML = "camel":
+        case this.innerHTML = "Camel":
           var animal3 = new Audio('camel.mp3').play();
           break
-        case this.innerHTML = "cat":
+        case this.innerHTML = "Cat":
           var animal4 = new Audio('cat.mp3').play();
           break
-        case this.innerHTML = "cow":
+        case this.innerHTML = "Cow":
           var animal5 = new Audio('cow.mp3').play();
           break
-        case this.innerHTML = "dog":
+        case this.innerHTML = "Dog":
           var animal6 = new Audio('dog.mp3').play();
           break
-        case this.innerHTML = "dolphine":
+        case this.innerHTML = "Dolphin":
           var animal7 = new Audio('dolphin.mp3').play();
           break
-        case this.innerHTML = "eagle":
+        case this.innerHTML = "Eagle":
           var animal8 = new Audio('eagle.mp3').play();
           break
-        case this.innerHTML = "elephant":
+        case this.innerHTML = "Elephant":
           var animal9 = new Audio('elephant.mp3').play();
           break
-        case this.innerHTML = "goat":
+        case this.innerHTML = "Goat":
           var animal10 = new Audio('goat.mp3').play();
           break
-        case this.innerHTML = "gorilla":
+        case this.innerHTML = "Gorilla":
           var animal11 = new Audio('gorilla.mp3').play();
           break
-        case this.innerHTML = "horse":
+        case this.innerHTML = "Horse":
           var animal12 = new Audio('horse.mp3').play();
           break
-        case this.innerHTML = "monkey":
+        case this.innerHTML = "Monkey":
           var animal13 = new Audio('monkey.mp3').play();
           break
-        case this.innerHTML = "rooster":
+        case this.innerHTML = "Rooster":
           var animal14 = new Audio('rooster.mp3').play();
           break
-        case this.innerHTML = "wildebeest":
+        case this.innerHTML = "Wildebeest":
           var animal15 = new Audio('wildebeest.mp3').play();
           break
         default:
@@ -278,11 +163,10 @@ for (var x = 0;
 }
 
 
-
-
 // Playing Sounds Via typing
 // getElementById must be utilized because we are looking for an ind element
 // The --> .target.value is used because target gives you the element that triggered the event. So, event.target.value retrieves the value of that element (an input field, in your example)
+// The change event is fired for <input>, <select>, and <textarea> elements when an alteration to the element's value is committed by the user
 
 document.getElementById("inputText").addEventListener('change', updateValue);
 
@@ -295,51 +179,158 @@ function updateValue(results) {
   if (textResults == "lion" || textResults == "Lion") {
     var animal1 = new Audio('lion.mp3').play();
 
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal1").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal1").classList.remove("notesTextSound");
+    }, 2000);
+
+
+
   } else if (textResults == "alligator" || textResults == "Alligator") {
     var animal2 = new Audio('alligator.mp3').play();
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal2").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal2").classList.remove("notesTextSound");
+    }, 2000);
+
 
   } else if (textResults == "camel" || textResults == "Camel") {
     var animal3 = new Audio('camel.mp3').play();
 
-  } else if (textResults == "cat"  || textResults == "Cat") {
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal3").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal3").classList.remove("notesTextSound");
+    }, 2000);
+
+
+  } else if (textResults == "cat" || textResults == "Cat") {
     var animal4 = new Audio('cat.mp3').play();
+
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal4").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal4").classList.remove("notesTextSound");
+    }, 2000);
 
   } else if (textResults == "cow" || textResults == "Cow") {
     var animal5 = new Audio('cow.mp3').play();
 
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal5").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal5").classList.remove("notesTextSound");
+    }, 2000);
+
   } else if (textResults == "dog" || textResults == "Dog") {
     var animal6 = new Audio('dog.mp3').play();
 
-  } else if (textResults == "dolphine" || textResults == "Dolphine") {
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal6").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal6").classList.remove("notesTextSound");
+    }, 2000);
+
+
+  } else if (textResults == "dolphin" || textResults == "Dolphin") {
     var animal7 = new Audio('dolphin.mp3').play();
+
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal7").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal7").classList.remove("notesTextSound");
+    }, 2000);
 
   } else if (textResults == "eagle" || textResults == "Eagle") {
     var animal8 = new Audio('eagle.mp3').play();
 
-  } else if (textResults == "elephant" || textResults == "Elephant"){
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal8").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal8").classList.remove("notesTextSound");
+    }, 2000);
+
+
+  } else if (textResults == "elephant" || textResults == "Elephant") {
     var animal9 = new Audio('elephant.mp3').play();
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal9").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal9").classList.remove("notesTextSound");
+    }, 2000);
+
+
+
 
   } else if (textResults == "goat" || textResults == "Goat") {
     var animal10 = new Audio('goat.mp3').play();
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal10").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal10").classList.remove("notesTextSound");
+    }, 2000);
+
+
 
   } else if (textResults == "gorilla" || textResults == "Gorilla") {
     var animal11 = new Audio('gorilla.mp3').play();
 
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal11").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal11").classList.remove("notesTextSound");
+    }, 2000);
+
+
   } else if (textResults == "horse" || textResults == "Horse") {
     var animal12 = new Audio('horse.mp3').play();
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal12").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal12").classList.remove("notesTextSound");
+    }, 2000);
+
 
   } else if (textResults == "monkey" || textResults == "Monkey") {
     var animal13 = new Audio('monkey.mp3').play();
 
+
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal13").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal13").classList.remove("notesTextSound");
+    }, 2000);
+
   } else if (textResults == "rooster" || textResults == "Rooster") {
     var animal14 = new Audio('rooster.mp3').play();
 
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal14").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal14").classList.remove("notesTextSound");
+    }, 2000);
+
   } else if (textResults == "wildebeest" || textResults == "Wildebeest") {
     var animal15 = new Audio('wildebeest.mp3').play();
+    // Adding animation to the button that we type the text for
+    document.querySelector(".animal15").classList.add("notesTextSound");
+    setTimeout(function() {
+      document.querySelector(".animal15").classList.remove("notesTextSound");
+    }, 2000);
+
   } else {
     // This will trigger when none of the buttons has been pressed
     // and the innerHTML of this equals to something not in the buttons
     alert("The entered text does not have a sound associated with it.");
+    // Adding animation to the button that we type the text for
 
 
   }

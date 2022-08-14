@@ -27,107 +27,92 @@
 <body>
   <h1 class="title">&#127926; Animal Sounds Web Application &#127926;</h1>
   <h3 class="title_subsection">Click on An Animal's Picture </h3>
-<div class="input" >
-  <input id="inputText" placeholder="Type An Animal's Name" name="name"/>
-  <p  id="actualText"></p>
-</div>
+  <div class="input">
+    <input id="inputText" placeholder="Type An Animal's Name" name="name" />
+    <p id="actualText"></p>
+  </div>
 
 
-<!-- To utilize the bootstrap grid system.
+  <!-- To utilize the bootstrap grid system.
 The classes of row and col-**-** must be used
 Also, using the grid system of bootstrap can prevent us from using the @ media rule-->
   <div class="notes row">
     <!-- 1. The images are added using CSS  -->
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal1" onClick="animal1()">lion</button>
-      <p class="description">
-      Lion  </p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal1" onClick="animal1()">Lion</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal2" onClick="animal2()">alligator</button>
-      <p class="description">
-      Alligator</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal2" onClick="animal2()">Alligator</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal3" onClick="animal3()">camel</button>
-      <p class="description">
-        Camel</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal3" onClick="animal3()">Camel</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal4" onClick="animal4()">cat</button>
-      <p class="description">
-      Cat</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal4" onClick="animal4()">Cat</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal5" onClick="animal5()">cow</button>
-      <p class="description">
-      Cow</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal5" onClick="animal5()">Cow</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal6" onClick="animal6()">dog</button>
-      <p class="description">
-         Dog</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal6" onClick="animal6()">Dog</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal7" onClick="animal7()">dolphin</button>
-      <p class="description">
-      Dolphin</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal7" onClick="animal7()">Dolphin</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal8" onClick="animal8()">eagle</button>
-      <p class="description">
-        Eagle</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal8" onClick="animal8()">Eagle</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal9" onClick="animal9()">elephant</button>
-      <p class="description">
-        Elephant</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal9" onClick="animal9()">Elephant</button>
+
     </div>
 
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal10" onClick="animal10()">goat</button>
-      <p class="description">
-         Goat</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal10" onClick="animal10()">Goat</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal11" onClick="animal11()">gorilla</button>
-      <p class="description">
-         Gorilla</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal11" onClick="animal11()">Gorilla</button>
+
     </div>
 
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal12" onClick="animal12()">horse</button>
-      <p class="description">
-         Horse</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal12" onClick="animal12()">Horse</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal13" onClick="animal13()">monkey</button>
-      <p class="description">
-        Monkey</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal13" onClick="animal13()">Monkey</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal14" onClick="animal14()">rooster</button>
-      <p class="description">
-         Rooster</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal14" onClick="animal14()">Rooster</button>
+
     </div>
 
-    <div class="col-lg-4 col-md-12 col-sm-12">
-      <button class="notes_set animal15" onClick="animal15()">wildebeest</button>
-      <p class="description">
-         Wildebeest</p>
+    <div class="col-lg-4 col-md-4 col-sm-4">
+      <button class="notes_set animal15" onClick="animal15()">Wildebeest</button>
+
     </div>
   </div>
 
