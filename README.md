@@ -9,6 +9,8 @@
 <li>JS, most notably the for/while loops, switch, if statements, anonymous functions, constructor functions </li>
 </ul>
 
+<p> The UI of the web application is presented below: </p> 
+<img src="UI.png" alt="UI">
 
 
 
